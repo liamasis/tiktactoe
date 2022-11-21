@@ -5,6 +5,7 @@ import { useState, useEffect } from "react";
 import React from "react";
 
 function TicTac() {
+  // Players
   const players = [
     { name: "liam", symbol: "X" },
     { name: "gab", symbol: "O" },
