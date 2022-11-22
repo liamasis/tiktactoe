@@ -15,6 +15,7 @@
 }
 
 .StyledModal {
+  z-index: 1;
   background: white;
   width: 600px;
   height: 600px;

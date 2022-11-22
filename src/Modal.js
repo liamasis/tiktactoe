@@ -4,7 +4,7 @@ import ReactDOM from "react-dom";
 import TicTac from "./TicTac";
 import styles from "../styles/Home.module.css";
 import styles1 from "../styles/Modal.module.css";
-const Modal = ({ show, onClose }) => {
+const Modal = ({ show, onClose, children, title }) => {
   const [isBrowser, setIsBrowser] = useState(false);
 
   useEffect(() => {
@@ -25,7 +25,7 @@ const Modal = ({ show, onClose }) => {
           </button>
         </div>
         <div className={styles1.StyledModalBody}>
-          <TicTac />
+          <div className="">wtf</div>what{/* <TicTac /> */}
         </div>
       </div>
     </div>
