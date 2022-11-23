@@ -23,9 +23,11 @@ const Modal = ({ show, onClose, children, title }) => {
           <button className={styles.buttonstyle} onClick={handleCloseClick}>
             Close
           </button>
+          why
         </div>
         <div className={styles1.StyledModalBody}>
-          <div className="">wtf</div>what{/* <TicTac /> */}
+          <div className="">wtf</div>what
+          <TicTac />
         </div>
       </div>
     </div>
