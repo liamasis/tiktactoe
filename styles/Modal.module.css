@@ -2,7 +2,6 @@
   display: flex;
   justify-content: center;
   align-items: center;
-
   height: 100%;
   width: 100%;
   padding-top: 10px;
@@ -17,7 +16,7 @@
 
 .StyledModal {
   z-index: 1;
-  background: black;
+  background: grey;
   width: 600px;
   height: 600px;
   border-radius: 15px;

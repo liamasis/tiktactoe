@@ -86,36 +86,39 @@ function TicTac() {
     return <h1>Winner: {winner.name}</h1>;
   }
   return (
-    <div className={styles.Game}>
-      <div className={styles.tileRow}>
-        {[
-          [1, 1],
-          [1, 2],
-          [1, 3],
-        ].map((coord) => {
-          return <Tile coord={coord}></Tile>;
-        })}
+    <>
+      <div className={styles.Game}>
+        <div className={styles.tileRow}>
+          {[
+            [1, 1],
+            [1, 2],
+            [1, 3],
+          ].map((coord) => {
+            return <Tile coord={coord}></Tile>;
+          })}
+        </div>
+        <div className={styles.tileRow}>
+          {[
+            [2, 1],
+            [2, 2],
+            [2, 3],
+          ].map((coord) => {
+            return <Tile coord={coord}></Tile>;
+          })}
+        </div>
+        <div className={styles.tileRow}>
+          {[
+            [3, 1],
+            [3, 2],
+            [3, 3],
+          ].map((coord) => {
+            return <Tile coord={coord}></Tile>;
+          })}
+        </div>
       </div>
-      <div className={styles.tileRow}>
-        {[
-          [2, 1],
-          [2, 2],
-          [2, 3],
-        ].map((coord) => {
-          return <Tile coord={coord}></Tile>;
-        })}
-      </div>
-      <div className={styles.tileRow}>
-        {[
-          [3, 1],
-          [3, 2],
-          [3, 3],
-        ].map((coord) => {
-          return <Tile coord={coord}></Tile>;
-        })}
-      </div>
+
       <h1>Player: {player.name}</h1>
-    </div>
+    </>
   );
 }
 

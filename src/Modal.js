@@ -4,6 +4,7 @@ import ReactDOM from "react-dom";
 import TicTac from "./TicTac";
 import styles from "../styles/Home.module.css";
 import styles1 from "../styles/Modal.module.css";
+//well
 const Modal = ({ show, onClose, children, title }) => {
   const [isBrowser, setIsBrowser] = useState(false);
 
@@ -23,10 +24,8 @@ const Modal = ({ show, onClose, children, title }) => {
           <button className={styles.buttonstyle} onClick={handleCloseClick}>
             Close
           </button>
-          why
         </div>
         <div className={styles1.StyledModalBody}>
-          <div className="">wtf</div>what
           <TicTac />
         </div>
       </div>
