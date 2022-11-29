@@ -1,3 +1,4 @@
+// @ts-nocheck
 import React, { useState } from "react";
 import Modal from "../src/Modal";
 import styles from "../styles/Home.module.css";

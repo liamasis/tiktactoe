@@ -5,7 +5,7 @@ import TicTac from "./TicTac";
 import styles from "../styles/Home.module.css";
 import styles1 from "../styles/Modal.module.css";
 //well
-const Modal = ({ show, onClose, children, title }) => {
+const Modal = ({ show, onClose }) => {
   const [isBrowser, setIsBrowser] = useState(false);
 
   useEffect(() => {
