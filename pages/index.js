@@ -2,7 +2,7 @@
 import React, { useState } from "react";
 import Modal from "../src/Modal";
 import styles from "../styles/Home.module.css";
-
+// Next task is too implement E2E and Unit testing
 export default function Home() {
   const [showModal, setShowModal] = useState(false);
   return (
