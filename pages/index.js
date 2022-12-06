@@ -8,7 +8,9 @@ import styles from "../styles/Home.module.css";
   - Unit testing: Final stage, usually performed by testers.
   Almost identical at lower levels when not dealing with a large project.
   - Component testing: tests each component of a app
-  You can use jest or cypress to perform these tests
+  You can use jest, cypress and/or puppeteer to perform these tests
+  I am not sure what i will be using.
+
 */
 export default function Home() {
   const [showModal, setShowModal] = useState(false);
