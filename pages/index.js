@@ -3,6 +3,13 @@ import React, { useState } from "react";
 import Modal from "../src/Modal";
 import styles from "../styles/Home.module.css";
 // Next task is too implement E2E and Unit testing
+/* There are two different types of testing:
+  - End to end: test from the end users perspective
+  - Unit testing: Final stage, usually performed by testers.
+  Almost identical at lower levels when not dealing with a large project.
+  - Component testing: tests each component of a app
+  You can use jest or cypress to perform these tests
+*/
 export default function Home() {
   const [showModal, setShowModal] = useState(false);
   return (
