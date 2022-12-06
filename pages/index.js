@@ -18,6 +18,7 @@ export default function Home() {
     <div className={styles.container}>
       <main className={styles.main}>
         <h1>A better way to enjoy every day.</h1>
+        <div className="well"></div>
         <button
           className={styles.buttonstyle}
           onClick={() => setShowModal(true)}
